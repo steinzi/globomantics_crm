@@ -9,8 +9,9 @@ Purpose: A simple Flask web app that demonstrates the Model View Controller
 
 class Database:
     """
+asdasd
     Represent the interface to the data (model). Can read from a
-    simple file such as JSON, YAML, or XML. Uses JSON by default.
+dd    simple file such as JSON, YAML, or XML. Uses JSON by default.
     """
 
     def __init__(self, path):
@@ -38,7 +39,6 @@ class Database:
         Determines the customer balance by finding the difference between
         can provide methods to help interface with the data; it is not
         limited to only storing data. A positive number means the customer
-        owes us money and a negative number means they overpaid and have
         a credit with us.
         """
         acct = self.data.get(acct_id)
