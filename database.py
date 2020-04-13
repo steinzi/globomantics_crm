@@ -45,7 +45,7 @@ class Database:
 	# I ADDED SOME WORDS
         if acct:
             bal = float(acct["due"]) - float(acct["paid"])
-            return f"{bal:.2f} ISK"
+            return f"THE ICELANDIC {bal:.2f} ISK"
             # return f"$ {bal:.2f}"
             # return int(acct["due"]) - int(acct["paid"])
         return None
